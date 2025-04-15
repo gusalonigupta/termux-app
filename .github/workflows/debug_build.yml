@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - master
-      - 'github-releases/**'
+      - 'feat-*/**'
   pull_request:
     branches:
       - master
